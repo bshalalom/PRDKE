@@ -2,11 +2,15 @@ import openai
 import requests
 import json
 
+from backend.WebScraper import WebScraper
+
+
 class PerplexityAgent:
     def __init__(self):
         pass
 
-    def extractData(self, api_key):
+    def extract_data(self, api_key, prompt_text):
+        webscraper = WebScraper()
         url = "https://api.perplexity.ai/chat/completions"
 
         headers = {
@@ -21,7 +25,8 @@ class PerplexityAgent:
                 {
                     "role": "user",
                     "content": (
-                        "Bitte gib mir aktuelle Informationen zur wirtschaftlichen Entwicklung und zum Produktportfolio der Voest aus dem Jahr 2024 oder 2025"
+                        prompt_text
+                       # "Bitte gib mir aktuelle Informationen zur wirtschaftlichen Entwicklung und zum Produktportfolio der Voest aus dem Jahr 2024 oder 2025"
                     )
                 }
             ]
@@ -49,7 +54,8 @@ class PerplexityAgent:
             # print(json.dumps(result, indent=2)[:2000])  # kürze bei Bedarf
 
             #!!!!!Rückgabe nur von Text für Testzwecke!!!!!
-            return result["choices"][0]["message"]["content"]
+            content = result["choices"][0]["message"]["content"]
+            return {"content": content, "citations": citations}     #return both content and citations, for easier further processing
         else:
             print("❌ Fehler:", response.status_code)
             print(response.text)
