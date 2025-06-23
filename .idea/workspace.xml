@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="pushing the whole project" />
+    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="pushing the whole project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,7 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
+    <option name="RECENT_COMMON_BRANCH" value="backend-frontend-combination" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -53,6 +56,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "FastAPI.PR DKE Project.executor": "Run",
     "Jest.App.test.js.executor": "Run",
+    "Jest.Tests in frontend\\.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.App.js.executor": "Run",
     "Node.js.App.jsx.executor": "Run",
@@ -83,7 +87,16 @@
       <recent name="C:\Users\flodo\PycharmProjects\PR DKE Project\backend" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.Tests in frontend\">
+    <configuration name="Tests in frontend\" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
+      <envs />
+      <scope-kind value="DIRECTORY" />
+      <test-directory value="$PROJECT_DIR$/frontend" />
+      <method v="2" />
+    </configuration>
     <configuration name="PR DKE Project" type="Python.FastAPI">
       <option name="file" value="C:\Users\flodo\PycharmProjects\PRDKE\backend\main.py" />
       <module name="PR DKE Project" />
@@ -100,6 +113,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Tests in frontend\" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -119,7 +137,7 @@
       <workItem from="1747291976535" duration="998000" />
       <workItem from="1749987736717" duration="3337000" />
       <workItem from="1750591936990" duration="2911000" />
-      <workItem from="1750672694698" duration="801000" />
+      <workItem from="1750672694698" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <option name="closed" value="true" />
@@ -177,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750673655445</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pushing the whole project">
+      <option name="closed" value="true" />
+      <created>1750673773243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1750673773243</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +241,6 @@
     <SUITE FILE_PATH="coverage/PRDKE$OpenAIAnalysisAgent.coverage" NAME="OpenAIAnalysisAgent Coverage Results" MODIFIED="1749988199974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/PRDKE$Doctests_in_requests_html.coverage" NAME="Doctests in requests_html Coverage Results" MODIFIED="1749988186493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages" />
     <SUITE FILE_PATH="coverage/PRDKE$main.coverage" NAME="main Coverage Results" MODIFIED="1750592546723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
-    <SUITE FILE_PATH="coverage/PRDKE$PR_DKE_Project.coverage" NAME="PR DKE Project Coverage Results" MODIFIED="1750592838734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/PRDKE$PR_DKE_Project.coverage" NAME="PR DKE Project Coverage Results" MODIFIED="1750673243634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
