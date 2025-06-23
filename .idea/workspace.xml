@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="Changes to get FASTAPI functionality">
-      <change afterPath="$PROJECT_DIR$/backend/routers/analyze_all.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/BusinessIdeaGenerator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/OpenAIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/OpenAIAnalysisAgent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/OpenAIReviewerAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/OpenAIReviewerAgent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/WebScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/WebScraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pdfReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pdfReader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="pushing the whole project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "backend-frontend-combination",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,7 +119,7 @@
       <workItem from="1747291976535" duration="998000" />
       <workItem from="1749987736717" duration="3337000" />
       <workItem from="1750591936990" duration="2911000" />
-      <workItem from="1750672694698" duration="500000" />
+      <workItem from="1750672694698" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <option name="closed" value="true" />
@@ -173,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749990927022</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="pushing the whole project">
+      <option name="closed" value="true" />
+      <created>1750673390840</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750673390840</updated>
+    </task>
+    <task id="LOCAL-00007" summary="pushing the whole project">
+      <option name="closed" value="true" />
+      <created>1750673655445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1750673655445</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,7 +197,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
     <MESSAGE value="Changes to get FASTAPI functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes to get FASTAPI functionality" />
+    <MESSAGE value="pushing the whole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="pushing the whole project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
