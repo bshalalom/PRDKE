@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/backend/OpenAIWebScraperTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/pdfReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routers/openai_agents.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routers/perplexity_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PR DKE Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PR DKE Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d940ce58-6acb-4703-9d06-ac3ed91ae8d8" name="Changes" comment="Changes to get FASTAPI functionality">
+      <change afterPath="$PROJECT_DIR$/backend/routers/analyze_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/BusinessIdeaGenerator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/OpenAIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/OpenAIAnalysisAgent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/OpenAIPerplexityTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/OpenAIPerplexityTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/PerplexityAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/PerplexityAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/OpenAIReviewerAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/OpenAIReviewerAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/WebScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/WebScraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pdfReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pdfReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,8 @@
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -45,12 +46,12 @@
     &quot;assignee&quot;: &quot;flodonaubauer&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bshalalom/PRDKE.git",
-    "accountId": "68f10efa-e24b-430a-8fae-a2698ed5268b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bshalalom/PRDKE.git&quot;,
+    &quot;accountId&quot;: &quot;68f10efa-e24b-430a-8fae-a2698ed5268b&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -63,18 +64,25 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "FastAPI.PR DKE Project.executor": "Run",
+    "Jest.App.test.js.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.App.js.executor": "Run",
+    "Node.js.App.jsx.executor": "Run",
+    "Node.js.BusinessIdeaGenerator.js.executor": "Run",
+    "Node.js.main.jsx.executor": "Run",
     "Python tests.Doctests in requests_html.executor": "Run",
     "Python.OpenAIAnalysisAgent.executor": "Run",
     "Python.OpenAIPerplexityTest.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "backend__newfastAPI",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "C:/Users/flodo/PycharmProjects/PRDKE/frontend/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
@@ -82,13 +90,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flodo\PycharmProjects\PRDKE" />
       <recent name="C:\Users\flodo\PycharmProjects\PRDKE\backend\routers" />
       <recent name="C:\Users\flodo\PycharmProjects\PR DKE Project\backend" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="PR DKE Project" type="Python.FastAPI">
-      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <option name="file" value="C:\Users\flodo\PycharmProjects\PRDKE\backend\main.py" />
       <module name="PR DKE Project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +129,9 @@
       <option name="presentableId" value="Default" />
       <updated>1747291975479</updated>
       <workItem from="1747291976535" duration="998000" />
-      <workItem from="1749987736717" duration="3135000" />
+      <workItem from="1749987736717" duration="3337000" />
+      <workItem from="1750591936990" duration="2911000" />
+      <workItem from="1750672694698" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <option name="closed" value="true" />
@@ -154,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747292828184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changes to get FASTAPI functionality">
+      <option name="closed" value="true" />
+      <created>1749990927022</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749990927022</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,11 +192,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Changes to get FASTAPI functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes to get FASTAPI functionality" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/backend/routers/analyze_all.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PRDKE$OpenAIPerplexityTest.coverage" NAME="OpenAIPerplexityTest Coverage Results" MODIFIED="1749988208972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/PRDKE$OpenAIAnalysisAgent.coverage" NAME="OpenAIAnalysisAgent Coverage Results" MODIFIED="1749988199974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
     <SUITE FILE_PATH="coverage/PRDKE$Doctests_in_requests_html.coverage" NAME="Doctests in requests_html Coverage Results" MODIFIED="1749988186493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages" />
+    <SUITE FILE_PATH="coverage/PRDKE$main.coverage" NAME="main Coverage Results" MODIFIED="1750592546723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
+    <SUITE FILE_PATH="coverage/PRDKE$PR_DKE_Project.coverage" NAME="PR DKE Project Coverage Results" MODIFIED="1750592838734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

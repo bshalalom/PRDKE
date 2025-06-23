@@ -9,7 +9,7 @@ class OpenAIAnalysisAgent:
                 Website-Inhalt: {text[:3000]}, PDF-Inhalt: {pdf_text[:2000]}"""
 
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4.1",
             messages=[{"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content.strip()
@@ -20,7 +20,7 @@ class OpenAIAnalysisAgent:
         """
 
         response = openai.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4.1",
             messages=[{"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content.strip()
@@ -30,7 +30,7 @@ class OpenAIAnalysisAgent:
                 Text-Inhalt: {text[:3000]}"""
 
         response = openai.chat.completions.create(
-            model="gpt-4",
+            model="gpt-4.1",
             messages=[{"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content.strip()
